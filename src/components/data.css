@@ -1,0 +1,43 @@
+.data-main{
+    width: 100%;
+    height : fit-content;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.data-h{
+    margin-top: 3%;
+    width : 60%;
+    height : fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-h{
+    color: rgb(39, 38, 38);
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.data-h p{
+    margin-top: 0%;
+    color: gray;
+    text-align: center;
+}
+
+.data-c-main{
+    width: 60%;
+    height : fit-content;
+    margin-top: 2%;
+
+}
+

@@ -1,0 +1,64 @@
+.nav-main{
+    width: 100%;
+    height: 7vh;
+    background-color: white;
+}
+
+.nave-block{
+    width : 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.flex1{
+    
+    width: 50%;
+    height: 100% ;
+    display: flex;
+    align-items: center;
+
+}
+
+.flex1 p{
+    font-size: 30px;
+    font-weight: 500;
+    color:gray;
+}
+
+.flex2{
+    width: 50%;
+    height: 100% ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30%;
+    gap: 2%;
+    
+
+    
+}
+
+.nave-e{
+    width : 13%;
+}
+.nav-bt{
+    width: 13%;
+    height : 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bt button {
+    background-color: white;
+    border: 2px solid rgb(142, 120, 227);
+    width:  100%;
+    height: 70%;
+    color: rgb(142, 120, 227);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
