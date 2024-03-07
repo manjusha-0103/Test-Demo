@@ -35,9 +35,14 @@
 }
 
 .data-c-main{
-    width: 60%;
+    width: 70%;
     height : fit-content;
     margin-top: 2%;
+    flex-direction: row;
+    display: flex;
+    row-gap: 1%;
+    column-gap: 1%;
+    flex-wrap: wrap;
 
 }
 

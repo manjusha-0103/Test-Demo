@@ -9,6 +9,7 @@ import Home from './pages/home';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import Course from './pages/course';
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
+
+        <Route path ="/:slug" element={<Course/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/contact" element={<Contact/>}/>
